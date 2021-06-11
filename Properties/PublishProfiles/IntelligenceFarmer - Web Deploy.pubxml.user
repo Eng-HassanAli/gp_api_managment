@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAih2aAye2RkG74K3Nn2UlSAAAAAACAAAAAAAQZgAAAAEAACAAAAACnycW6qcsbDO+wkqxQFKgRQSZ0Y36PcZRXR1SjYpStwAAAAAOgAAAAAIAACAAAADkKYWrRtCDAwHcHCpOJrXXXVl7Sk5Xv09ioZqGLYvbZYAAAAClwNbNyFW+Kgcjak55OPhfuT/k76auSnl55t5g/GUv2HQYzmIiiwxNXPtAAVZcrjyGJV/siwpiBMTJ+PInEPQhnG9+zrVE5Wvgim33bd7QXhFShZSbItGR7tHexgDWiQS9kuvsirv0sQVNfqkmomkQPgUPH45pp17xrY6qBnHvTEAAAAA2t/xNs2JX/TUAQlAEOI7uDWeLQNCSJK142sJFKLYp0x5Y9n4NqC/qS9HDPCRBNWWbwAADvGdHNYkh5C/Mwswg</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MyConnection">
+      <Value>Server=tcp:gpdb.database.windows.net,1433%3bInitial Catalog=IntelligenceFarmerDB%3bPersist Security Info=False%3bUser ID=hassan%3bPassword=Ali&amp;21699##%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="IntelligenceFarmer.GpDbContext">
+      <Value>Server=tcp:gpdb.database.windows.net,1433%3bInitial Catalog=IntelligenceFarmerDB%3bPersist Security Info=False%3bUser ID=hassan%3bPassword=Ali&amp;21699##%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
